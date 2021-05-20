@@ -20,7 +20,7 @@ yarn install
 pulumi login
 
 # Select the appropriate stack.
-pulumi stack select smitasulikal/gcp-ts-functions/dev
+pulumi stack select dev
 
 case $BUILD_TYPE in
   PullRequest)
