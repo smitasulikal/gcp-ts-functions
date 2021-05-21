@@ -22,6 +22,8 @@ pulumi login
 # Select the appropriate stack.
 pulumi stack select dev
 
+
+#depends on _BUILD_TYPE field in goggle cloud build UI
 case $BUILD_TYPE in
   PullRequest)
       pulumi preview
