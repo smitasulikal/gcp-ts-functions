@@ -20,7 +20,7 @@ yarn install
 pulumi login
 
 # Select the appropriate stack.
-pulumi stack select dev
+pulumi stack select dev1
 
 
 case $BUILD_TYPE in
